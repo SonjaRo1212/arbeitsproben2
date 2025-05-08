@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Salon Eleganza</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">Salon Eleganza</div>
+      <ul class="nav-links">
+        <li><a href="#start">Start</a></li>
+        <li><a href="#leistungen">Leistungen</a></li>
+        <li><a href="#preise">Preise</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="start" class="hero">
+    <h1>Willkommen im Salon Eleganza</h1>
+    <p>Ihr Wohlfühlort für Haare, Schönheit & Entspannung.</p>
+    <button id="showHours">Unsere Öffnungszeiten</button>
+    <p id="hours" class="hidden"></p>
+  </section>
+
+  <section id="leistungen" class="services">
+    <h2>Unsere Leistungen</h2>
+    <div class="service-items">
+      <div class="service-box">
+        <h3>Haarschnitt</h3>
+        <p>Moderne Schnitte für Damen, Herren & Kinder.</p>
+      </div>
+      <div class="service-box">
+        <h3>Färben & Strähnen</h3>
+        <p>Individuelle Farbberatung & professionelle Umsetzung.</p>
+      </div>
+      <div class="service-box">
+        <h3>Beauty & Pflege</h3>
+        <p>Make-up, Augenbrauen, Wimpern & mehr.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="preise" class="pricing">
+    <h2>Preisliste</h2>
+    <table>
+      <tr><th>Leistung</th><th>Preis</th></tr>
+      <tr><td>Damenhaarschnitt</td><td>ab 45 €</td></tr>
+      <tr><td>Herrenhaarschnitt</td><td>ab 30 €</td></tr>
+      <tr><td>Strähnen (halber Kopf)</td><td>ab 60 €</td></tr>
+      <tr><td>Augenbrauen zupfen</td><td>ab 12 €</td></tr>
+      <tr><td>Make-up</td><td>ab 35 €</td></tr>
+    </table>
+  </section>
+
+  <section id="kontakt" class="contact">
+    <h2>Kontakt</h2>
+    <form>
+      <input type="text" placeholder="Ihr Name" required />
+      <input type="email" placeholder="Ihre E-Mail" required />
+      <textarea placeholder="Ihre Nachricht..." required></textarea>
+      <button type="submit">Nachricht senden</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Salon Eleganza – Musterstraße 1, 12345 Musterstadt</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
